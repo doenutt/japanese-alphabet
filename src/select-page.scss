@@ -4,7 +4,7 @@
   font-family: "Montserrat", sans-serif;
 
   h1 {
-    font-size: 100px;
+    font-size: 5em;
     font-weight: 700;
   }
 
@@ -19,19 +19,18 @@
 
   .circle {
     background-color: #ff0000;
-    width: 250px;
-    height: 250px;
-    border-radius: 180px;
+    width: 15vw;
+    height: 15vw;
+    border-radius: 50%;
     position: absolute;
     top: 50%;
-    margin-top: -125px;
+    margin-top: -7.5vw;
     left: 50%;
-    margin-left: -125px;
+    margin-left: -7.5vw;
     display: flex;
     align-items: center;
     justify-content: center;
-    border-radius: 180px;
-    font-size: 35px;
+    font-size: 2em;
     font-weight: 700;
     text-decoration: none;
     color: transparent;
@@ -51,17 +50,21 @@
   align-items: center;
   justify-content: center;
   position: relative;
+  padding-right: 5vw;
 
   &::after {
     position: absolute;
     content: "ひらがな";
     text-orientation: upright;
     writing-mode: vertical-rl;
-    font-size: 80px;
+    font-size: 4em;
     font-weight: 700;
-    right: 150px;
+    right: 8vw;
     opacity: 10%;
-    letter-spacing: 20px;
+    letter-spacing: 0.5em;
+    height: 25vw;
+    top: 50%;
+    margin-top: -12.5vw;
   }
 }
 
@@ -71,16 +74,20 @@
   align-items: center;
   justify-content: center;
   position: relative;
+  padding-left: 5vw;
 
   &::after {
     position: absolute;
     content: "カタカナ";
     text-orientation: upright;
     writing-mode: vertical-rl;
-    font-size: 80px;
+    font-size: 4em;
     font-weight: 700;
-    left: 150px;
+    left: 8vw;
     opacity: 10%;
-    letter-spacing: 20px;
+    letter-spacing: 0.5em;
+    height: 25vw;
+    top: 50%;
+    margin-top: -12.5vw;
   }
 }

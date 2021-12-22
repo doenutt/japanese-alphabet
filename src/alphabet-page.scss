@@ -5,25 +5,23 @@
   align-items: center;
   background-color: white;
   z-index: 99;
-  font-family: "Montserrat", sans-serif;
   width: 100%;
-  padding: 25px 100px;
+  padding: 0.8vw 10vw;
 
   h1 {
-    font-size: 70px;
+    font-size: 3em;
     font-weight: 700;
   }
 
   ul {
     display: flex;
     grid-gap: 80px;
-    font-size: 35px;
+    font-size: 1.25em;
     font-weight: 700;
     text-decoration: none;
     color: black;
 
     a {
-      font-size: 35px;
       font-weight: 700;
       text-decoration: none;
       color: black;
@@ -35,13 +33,13 @@
   }
 
   .return-button {
-    width: 175px;
-    height: 175px;
+    width: 8vw;
+    height: 8vw;
     display: flex;
     align-items: center;
     justify-content: center;
-    border-radius: 180px;
-    font-size: 35px;
+    border-radius: 50%;
+    font-size: 1.25em;
     font-weight: 700;
     text-decoration: none;
     color: black;
@@ -59,22 +57,22 @@
   position: absolute;
   text-orientation: upright;
   writing-mode: vertical-rl;
-  font-size: 80px;
+  font-size: 5em;
   font-weight: 700;
-  left: 75px;
-  top: 250px;
+  left: 2vw;
+  top: 10vw;
   opacity: 10%;
-  letter-spacing: 20px;
+  letter-spacing: 0.5em;
 }
 
 .section-content {
-  padding: 300px;
+  padding: 15vw;
 
   h1 {
     font-family: "Montserrat", sans-serif;
-    font-size: 3em;
+    font-size: 2em;
     font-weight: 900;
-    padding-bottom: 30px;
+    padding-bottom: 2vw;
   }
 }
 
@@ -85,7 +83,7 @@
   padding-bottom: 0;
   color: rgb(0, 0, 0);
   border: 2px solid black;
-  border-radius: 20px;
+  border-radius: 1vw;
   overflow: auto;
 }
 
@@ -102,7 +100,7 @@
   border: 0.5px solid black;
   text-align: center;
   background-color: white;
-  padding: 20px;
+  padding: 1vw;
   font-family: "Noto Sans JP", sans-serif;
 
   h2 {
@@ -113,8 +111,8 @@
   }
 
   p {
-    font-size: 35px;
+    font-size: 1.5em;
     color: gray;
-    padding-top: 20px;
+    padding-top: 1.5vw;
   }
 }
