@@ -1,0 +1,72 @@
+.select-page-wrapper {
+  display: flex;
+  min-height: 100vh;
+  font-family: "Montserrat", sans-serif;
+
+  h1 {
+    font-size: 100px;
+    font-weight: 700;
+  }
+
+  a {
+    text-decoration: none;
+    color: black;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+
+  .circle {
+    background-color: #ff0000;
+    width: 250px;
+    height: 250px;
+    display: block;
+    border-radius: 180px;
+    position: absolute;
+    top: 50%;
+    margin-top: -125px;
+    left: 50%;
+    margin-left: -125px;
+  }
+}
+
+.hiragana-section {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+
+  &::after {
+    position: absolute;
+    content: "ひらがな";
+    text-orientation: upright;
+    writing-mode: vertical-rl;
+    font-size: 80px;
+    font-weight: 700;
+    right: 150px;
+    opacity: 10%;
+    letter-spacing: 20px;
+  }
+}
+
+.katakana-section {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+
+  &::after {
+    position: absolute;
+    content: "カタカナ";
+    text-orientation: upright;
+    writing-mode: vertical-rl;
+    font-size: 80px;
+    font-weight: 700;
+    left: 150px;
+    opacity: 10%;
+    letter-spacing: 20px;
+  }
+}
