@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&family=Noto+Sans+JP:wght@400;500&display=swap');
+@import "./reset.css";
+
+
+// homepage
+
+.homepage-wrapper {
+    display: flex;
+    min-height: 100vh;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.left-section {
+    width: 50%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.right-section {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+
+    h1 {
+        text-orientation: upright;
+        writing-mode: vertical-rl;
+        font-size: 100px;
+        font-weight: 700;
+        position: absolute;
+        left: 50px;
+    }
+
+    a {
+        background-color: #FF0000;
+        width: 250px;
+        height: 250px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 180px;
+        color: white;
+        font-weight: 600;
+        font-size: 40px;
+        text-decoration: none;
+    }
+
+    &::after{
+        position: absolute;
+        content: "日本";
+        text-orientation: upright;
+        writing-mode: vertical-rl;
+        font-size: 200px;
+        font-weight: 700;
+        right:75px;
+        bottom: 75px;
+        opacity: 10%;
+    }
+}
+
