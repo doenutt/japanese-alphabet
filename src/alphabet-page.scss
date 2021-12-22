@@ -45,10 +45,12 @@
     font-weight: 700;
     text-decoration: none;
     color: black;
+    transition: all 0.4s ease-out;
 
     &:hover {
       background-color: #ff0000;
       color: white;
+      transform: scale(1.1);
     }
   }
 }

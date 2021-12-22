@@ -35,10 +35,12 @@
     font-weight: 700;
     text-decoration: none;
     color: transparent;
+    transition: all 0.4s ease-out;
 
     &:hover {
       color: white;
       text-decoration: none;
+      transform: scale(1.1);
     }
   }
 }
