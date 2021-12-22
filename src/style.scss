@@ -17,8 +17,9 @@
 .left-section {
   width: 50%;
   background-position: center;
-  background-size: cover;
+  background-size: contain;
   background-repeat: no-repeat;
+  background-color: black;
 }
 
 .right-section {
