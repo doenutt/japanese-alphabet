@@ -6,10 +6,10 @@
   background-color: white;
   z-index: 99;
   width: 100%;
-  padding: 0.8vw 10vw;
+  padding: 0.6vw 8vw;
 
   h1 {
-    font-size: 3em;
+    font-size: 2em;
     font-weight: 700;
   }
 
@@ -33,8 +33,8 @@
   }
 
   .return-button {
-    width: 8vw;
-    height: 8vw;
+    width: 6vw;
+    height: 6vw;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -66,6 +66,7 @@
 }
 
 .section-content {
+  display: flex;
   padding: 15vw;
 
   h1 {
@@ -73,46 +74,59 @@
     font-size: 2em;
     font-weight: 900;
     padding-bottom: 2vw;
+    position: absolute;
+    left: 15vw;
+    height: 2vw;
+    top: 17%;
   }
 }
 
 .grid-main,
 .grid-dakuten,
 .grid-combo {
-  display: grid;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  align-items: center;
+  gap: 0vw;
+  row-gap: 0vw;
   padding-bottom: 0;
   color: rgb(0, 0, 0);
   border: 2px solid black;
   border-radius: 1vw;
   overflow: auto;
-}
 
-.grid-main,
-.grid-combo {
-  grid-template-columns: repeat(11, 1fr);
+  .item {
+    flex: 1 100%;
+    flex-grow: 1;
+    flex-basis: auto;
+    align-self: flex-start;
+    width: 6vw;
+    height: 8vw;
+    border: 0.5px solid black;
+    text-align: center;
+    background-color: white;
+    padding: 1vw;
+    font-family: "Noto Sans JP", sans-serif;
+  
+    h2 {
+      text-align: center;
+      font-size: 2.5em;
+      font-weight: 900;
+      white-space: nowrap;
+    }
+  
+    p {
+      font-size: 1.5em;
+      color: gray;
+      padding-top: 1.5vw;
+    }
+  }
+  
 }
 
 .grid-dakuten {
-  grid-template-columns: repeat(5, 1fr);
-}
-
-.item {
-  border: 0.5px solid black;
-  text-align: center;
-  background-color: white;
-  padding: 1vw;
-  font-family: "Noto Sans JP", sans-serif;
-
-  h2 {
-    text-align: center;
-    font-size: 2.5em;
-    font-weight: 900;
-    white-space: nowrap;
-  }
-
-  p {
-    font-size: 1.5em;
-    color: gray;
-    padding-top: 1.5vw;
+  .item {
+    width: 13vw;
   }
 }
