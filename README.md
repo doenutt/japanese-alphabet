@@ -9,6 +9,7 @@ UI design: [CLICK HERE](https://www.figma.com/proto/v0G1X6Hj4bzSIsK7rENIyq/Japan
 ## Roadmap:
 1. Add Katakana alphabet
 2. Responsiveness + browsers bugs
-3. UI improvements
-4. Add syllables pronounciation
-5. Create quiz mode
+3. Mobile design
+4. UI improvements
+5. Add syllables pronounciation
+6. Create quiz mode
