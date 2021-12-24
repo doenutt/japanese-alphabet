@@ -1,4 +1,4 @@
-# Japanese Alphabet
+# Japanese Syllabary
 
 Website that can be used as a hiragana and katakana learning resource. 
 
