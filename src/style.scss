@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&family=Noto+Sans+JP:wght@400;500&display=swap");
-@import "./reset.css";
-@import "./select-page.scss";
-@import "./alphabet-page.scss";
+@import "./reset";
+@import "./select-page";
+@import "./alphabet-page";
 * {
   box-sizing: border-box;
 }
